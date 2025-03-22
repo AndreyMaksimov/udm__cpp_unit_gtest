@@ -3,3 +3,4 @@
 add_subdirectory(20_Unit_Test_Structure)
 add_subdirectory(23_Assertion_on_Strings-Wrong_Way)
 add_subdirectory(25_Assertion_on_Strings-Right_Way)
+add_subdirectory(27_Assertions_on_Exceptions)
