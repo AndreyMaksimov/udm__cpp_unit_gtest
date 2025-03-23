@@ -1,14 +1,11 @@
-cmake_minimum_required(VERSION 3.13)
-set(CMAKE_CXX_STANDARD 11)
-
 find_package(GTest REQUIRED)
 message("GTest_INCLUDE_DIRS = ${GTest_INCLUDE_DIRS}")
 
-add_library(commonLibrary LibraryCode.cpp)
+add_library(commonLibrary31_1 LibraryCode.cpp)
 
-add_executable(mainApp main.cpp)
-target_link_libraries(mainApp commonLibrary)
+add_executable(mainApp31_1.exe main.cpp)
+target_link_libraries(mainApp31_1.exe commonLibrary)
 
-add_executable(unitTestRunner testRunner.cpp)
-target_link_libraries(unitTestRunner commonLibrary ${GTEST_LIBRARIES} pthread)
+add_executable(unitTestRunner31_1.exe testRunner.cpp)
+target_link_libraries(unitTestRunner31_1.exe commonLibrary31_1 ${GTEST_LIBRARIES} pthread)
 
