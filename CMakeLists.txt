@@ -14,4 +14,4 @@ FetchContent_MakeAvailable(googletest)
 
 add_subdirectory(02_Setting_Up_Google_Test)
 add_subdirectory(03_Unit_Testing_Basics)
-
+add_subdirectory(04_Fixtures)
