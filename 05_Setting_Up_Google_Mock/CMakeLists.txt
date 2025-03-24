@@ -1,0 +1,3 @@
+# 05_Setting_Up_Google_Mock/CMakeLists.txt
+
+add_subdirectory(40_Google_Mock_CMake_Sample_Linux)
