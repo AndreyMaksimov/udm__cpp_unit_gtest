@@ -2,3 +2,4 @@
 
 add_subdirectory(42_Mocking_Project)
 add_subdirectory(51_Invoking_Actions)
+add_subdirectory(54_Assertions_on_Vectors)
